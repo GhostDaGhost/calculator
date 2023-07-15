@@ -1,0 +1,37 @@
+.calcbutton_container {
+    margin-top: 2.2vmin;
+
+    .calcbutton_row {
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        margin-bottom: 1.5vmin;
+
+        .calcbutton {
+            &.operator {
+                color: rgb(0, 245, 245);
+            }
+
+            &:hover {
+                background-color: rgb(199, 199, 199);
+            }
+
+            width: 6vmin;
+            height: 6vmin;
+            margin-left: 2.85vmin;
+
+            color: white;
+            font-size: 3vmin;
+            cursor: pointer;
+
+            outline: none;
+            user-select: none;
+            transition: .1s ease-in-out;
+
+            background: none;
+            border-radius: 1vh;
+            border: .15vh solid white;
+        }
+    }
+}
