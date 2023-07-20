@@ -1,8 +1,7 @@
 <template>
     <div class="outercontainer">
         <div class="innercontainer">
-            <InputBox/>
-            <CalculatorButtons/>
+            <ButtonsAndInput/>
             <Author/>
         </div>
     </div>
@@ -10,12 +9,10 @@
 
 <script lang="ts">
     import { Options, Vue } from 'vue-class-component';
-
-    import CalculatorButtons from './components/CalculatorButtons.vue';
-    import InputBox from './components/InputBox.vue';
     import Author from './components/Author.vue';
+    import ButtonsAndInput from './components/ButtonsAndInput.vue';
 
-    @Options({ components: { InputBox, CalculatorButtons, Author } })
+    @Options({ components: { ButtonsAndInput, Author } })
 
     export default class App extends Vue {}
 </script>

@@ -1,6 +1,8 @@
 <template>
     <div class="author_container">
-        <span class="author">Created by Alex</span>
+        <div class="author">
+            Created by Alex with <a class="hyperlink" href="https://vuejs.org/" rel="noopener noreferrer" target="_blank">Vue.js</a>
+        </div>
     </div>
 </template>
 
